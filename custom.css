@@ -1,0 +1,73 @@
+@import url("assets/css/fonts.css");
+
+body {
+  background: url(assets/img/supercell_logo.svg) no-repeat 40px 40px;
+  background-size: 80px auto;  
+  font-family: 'whitney', sans-serif; 
+}
+
+.reveal {
+  font-family: 'whitney', sans-serif !important; 
+  font-size: 280%;
+}
+.reveal h2, .reveal h3  {  
+  font-family: 'blender_probook', sans-serif !important;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding-bottom: .25em;
+}
+.reveal h4, .reveal h5, .reveal h6  {
+  font-family: 'whitney', sans-serif !important; 
+}
+
+.reveal a:not(.image) {
+  color: #000;
+  border-bottom: 1px dashed #aaa;
+}
+.reveal a:not(.image):hover {
+  color: #666;
+}
+
+.reveal h1 {
+  font-family: 'blender_promedium', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+.rendered_html h1 {
+  font-size: 210%;
+}
+
+.rendered_html li {
+  line-height: 1.5em;
+  margin-bottom: .25em;
+}
+.rendered_html li ul, .rendered_html li ol {
+  margin-top: .5em;
+}
+.rendered_html p {
+  line-height: 1.5em;
+}
+.rendered_html img {
+  margin: 1em !important;
+}
+
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.15);
+}
+.reveal .progress span {
+  background: #80c7ff;
+}
+
+.reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
+  border-right-color: #000;
+}
+.reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
+  border-top-color: #000;
+}
+.reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled {
+  border-bottom-color: #000;
+}
+.reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {
+  border-left-color: #000;
+}
