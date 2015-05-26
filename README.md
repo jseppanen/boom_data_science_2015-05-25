@@ -3,6 +3,8 @@
 
 For Helsinki data science meetup, 2015-05-25
 
+Online version: http://jseppanen.github.io/boom_data_science_2015-05-25
+
 # Building an HTML version
 
 ## Convert to HTML
